@@ -1,10 +1,9 @@
 #include <stdio.h>
  /**
-  * main: main function
+  * main - Entry point
   *
   * Description: A C program to print a string
   *using printf
-  * @parameter: none
   * Return: 0 as success
  */
 int main(void)

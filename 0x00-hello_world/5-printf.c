@@ -1,12 +1,14 @@
 #include <stdio.h>
- /*
-  *function main: main function
+ /**
+  * main: main function
   *
-  *description: A C program to print a string
+  * Description: A C program to print a string
   *using printf
+  * @parameter: none
+  * Return: 0 as success
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }

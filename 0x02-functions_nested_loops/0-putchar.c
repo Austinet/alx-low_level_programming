@@ -9,7 +9,7 @@ int main(void)
 int i = 0;
 char charArray[] = "_putchar";
 
-while(charArray[i] != '\0')
+while (charArray[i] != '\0')
 {
 _putchar(charArray[i]);
 i++;

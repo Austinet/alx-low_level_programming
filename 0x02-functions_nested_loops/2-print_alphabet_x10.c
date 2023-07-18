@@ -17,7 +17,7 @@ _putchar(lowerCase);
 lowerCase++;
 }
 _putchar('\n');
-lowercase = 'a';
+lowerCase = 'a';
 num++;
 }
 }

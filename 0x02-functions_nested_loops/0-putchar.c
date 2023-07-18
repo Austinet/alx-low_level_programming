@@ -1,19 +1,12 @@
+#include <unistd.h>
 #include "main.h"
 /**
- * main - print characters using _putchar function
+ * _putchar - print characters to standard output
  *
- * Return: Always 0 (Success)
+ * @c : parameter of char datatype
+ * Return: Always 0.
  */
-int main(void)
+int _putchar(char c)
 {
-int i = 0;
-char charArray[] = "_putchar";
-
-while (charArray[i] != '\0')
-{
-_putchar(charArray[i]);
-i++;
-}
-_putchar('\n');
-return (0);
+return (write(1, &c, 1));
 }

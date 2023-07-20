@@ -10,7 +10,6 @@ int i = 0;
 int j = 0;
 int k = 0;
 int l = 0;
-int x;
 while (l < 3)
 {
 while (k < 10)
@@ -25,14 +24,12 @@ _putchar(':');
 _putchar(j + '0');
 _putchar(i + '0');
 _putchar('\n');
-x++;
 i++;
 if (l == 2 && k == 3 && j == 5 && i == 10)
 {
 l = 3;
 j = 6;
 k = 10;
-i = 10;
 }
 }
 i = 0;
@@ -43,3 +40,6 @@ k++;
 }
 k = 0;
 l++;
+}
+}
+

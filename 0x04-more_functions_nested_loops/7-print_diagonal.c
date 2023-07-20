@@ -10,7 +10,7 @@ int space = 0;
 int j;
 while (n > 0)
 {
-_putchar('\');
+_putchar('\\');
 _putchar('\n');
 for (j = 0; j <= space; j++)
 {

@@ -14,12 +14,12 @@ while (j < 10)
 while (i < 15)
 {
 if (i >= 10)
-putchar((i / 10) + '0');
+_putchar((i / 10) + '0');
 
-putchar((i % 10) + '0');
+_putchar((i % 10) + '0');
 i++;
 }
-putchar('\n');
+_putchar('\n');
 i = 0;
 j++;
 }

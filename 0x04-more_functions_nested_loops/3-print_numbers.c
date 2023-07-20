@@ -12,5 +12,5 @@ while (num <= 9)
 _putchar(num + '0');
 num++;
 }
-putchar('\n');
+_putchar('\n');
 }

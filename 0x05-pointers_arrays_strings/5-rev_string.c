@@ -13,7 +13,7 @@ while (s[i] != '\0')
 {
 i++;
 }
-i--
+i--;
 int str[i];
 int j = 0;
 

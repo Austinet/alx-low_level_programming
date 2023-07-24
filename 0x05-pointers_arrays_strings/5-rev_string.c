@@ -14,7 +14,7 @@ while (s[i] != '\0')
 i++;
 }
 i--;
-int str[i];
+char str[i];
 int j = 0;
 
 /*swaps the string in reverse*/

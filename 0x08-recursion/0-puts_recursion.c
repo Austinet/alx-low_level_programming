@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts_recursion - prints a string
  * @s: the string to print
@@ -13,3 +14,4 @@ _puts_recursion(++s); /* point to the address of the next element*/
 }
 _putchar('\n');
 }
+

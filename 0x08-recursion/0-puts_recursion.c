@@ -12,6 +12,8 @@ if (*s != '\0')
 _putchar(*s);
 _puts_recursion(++s); /* point to the address of the next element*/
 }
+else
+{
 _putchar('\n');
 }
-
+}

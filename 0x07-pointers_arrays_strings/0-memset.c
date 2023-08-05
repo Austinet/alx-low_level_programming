@@ -1,23 +1,19 @@
-#include "main.h"
 /**
- * _strchr - locate a character in a string
- * @s: the string
- * @c: character to locate
- * Return: first occurrence of the character, or NULL if not found
+ * _memset - fills memory with a specified byte
+ * @s: buffer array
+ * @b: specified byte
+ * @n: number of memory bytes to fill
+ * Return: pointer to memory area s
  */
-char *_strchr(char *s, char c)
+char *_memset(char *s, char b, unsigned int n)
 {
-while (*s != '\0')
+int i = 0;
+
+while (n > 0)
 {
-if (*s == c)
-{
+s[i] = b;
+i++;
+n--;
+}
 return (s);
-}
-else if (*(s + 1) == c)
-{
-return (s + 1);
-}
-s++;
-}
-return (s + 1);
 }

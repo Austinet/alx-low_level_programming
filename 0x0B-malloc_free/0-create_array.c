@@ -16,7 +16,7 @@ arr = malloc(sizeof(c) * size);
 if ((size <= 0) || (arr == NULL))
 return (NULL);
 
-for (i = 0; i < size; i++)
+for (i = 0; i < (int) size; i++)
 {
 arr[i] = c;
 }

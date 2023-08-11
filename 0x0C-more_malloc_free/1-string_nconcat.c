@@ -28,15 +28,15 @@ i++;
 while (s2[j] != '\0')
 j++;
 
-if (j > n)
-j = n;
+if (n >= j)
+n = j;
 
-conc = malloc(sizeof(char) * (j + i + 1));
+conc = malloc(sizeof(char) * (i + n + 1));
 
 if (conc == NULL)
 return (NULL);
 
-for (l = 0, k = 0; l < (i + j + 1); l++)
+for (l = 0, k = 0; l < (i + n + 1); l++)
 {
 if (l < i)
 conc[l] = s1[l];

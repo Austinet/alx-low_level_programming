@@ -33,7 +33,7 @@ for (l = 0, k = 0; l < (i + n); l++)
 {
 if (l < i)
 conc[l] = s1[l];
-else if ((l >= i)&&(s2[k]))
+else
 conc[l] = s2[k++];
 }
 conc[l] = '\0';

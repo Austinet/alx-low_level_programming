@@ -1,4 +1,4 @@
-#include "function_pointer.h"
+#include "function_pointers.h"
 /**
  * int_index - searches for an integer
  *
@@ -25,3 +25,4 @@ return (i);
 
 return (-1);
 }
+

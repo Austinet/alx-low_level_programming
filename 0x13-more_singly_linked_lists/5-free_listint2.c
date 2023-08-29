@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint2 - frees a listint_t list.
+ * free_listint2 - frees a listint_t list, and sets head to NULL
  * @head: the beginning of the list
  * Return: nothing
  */
@@ -14,4 +14,6 @@ temp = *head;
 *head = (*head)->next;
 free(temp);
 }
+
+head = NULL
 }
